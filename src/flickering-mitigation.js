@@ -126,7 +126,7 @@ FlickeringMitigation.prototype.ratio = function () {
   ratio = weightedChangeCount/this.growthChangeWeightsSum;
 
   if (ratio>0) {
-    console.log("flickering mitigation ratio: "+Math.floor(ratio*1000)/1000);
+    // console.log("flickering mitigation ratio: "+Math.floor(ratio*1000)/1000);
   }
 
   return ratio;
